@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(245, 131, 226);
+    margin: 0;
+  }
+  .container {
+    text-align: center;
+  }
+  .top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+  }
+  .top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+  }
+  .fondo {
+   background-color: rgb(236, 6, 18);
+  color: white;
+   font-family: Arial, sans-serif;
+   text-align: center;
+    margin: 5;
+   padding: 5;
+  }
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(2.2);
+    transition: 22s;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .gallery-item {
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden; 
+  }
